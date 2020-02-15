@@ -1,0 +1,96 @@
+/* page transition effect*/
+.transition-fade {
+    opacity: 1;
+    transition: 400ms;
+    transform: translateX(0);
+}
+
+html.is-animating .transition-fade {
+    opacity: 0;
+    transform: translateX(-500px);
+}
+
+/* page transition effect*/
+.transition-up {
+    transition: 400ms;
+    transform: translateY(0);
+}
+
+html.is-animating .transition-up {
+    opacity: 0;
+    transform: translate(500px, -100px);
+}
+
+
+
+html, body, #swup{
+    height: 100%;
+    width: 100%;
+}
+
+.wrap {
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+}
+
+.header {
+    height: 40%;
+}
+
+.content {
+    height: 30%;
+}
+
+.footer {
+    height: 30%;
+}
+
+.container {
+    margin: 0 auto;
+    height: 100%;
+}
+
+.header .container_div {
+    height: 30%;
+}
+
+.header .container {
+    height: 70%;
+}
+
+.content {
+    margin-left: 2em;
+}
+
+
+h1 {
+   font-family: 'Ubuntu', sans-serif !important;
+   font-weight: 700 !important;
+   margin-left: 0.2em;
+}
+
+
+h3 {
+   font-family: 'Ubuntu', sans-serif !important;
+   font-size: 1.5em !important;
+   font-weight: 700 !important;
+}
+
+p {
+    /*font-family: 'Source Serif Pro', serif;*/
+    font-size: 1em;
+}
+
+.emoji {
+    font-size: 6em;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+
+
+
+
